@@ -163,10 +163,10 @@ footer {
 }
 
 footer p {
-	grid-row: 0 / 1;
+	grid-row: 1 / 2;
 }
 
-footer a {
+footer .awe-icons {
 	grid-row-start: 3;
 	color: white;
 }
