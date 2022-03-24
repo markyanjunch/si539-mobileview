@@ -166,7 +166,7 @@ footer p {
 	grid-row: 0 / 1;
 }
 
-footer .awe-icons {
+footer a {
 	grid-row-start: 3;
 	color: white;
 }
