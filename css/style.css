@@ -230,14 +230,55 @@ img {
 	max-width: 40%;
 }
 
+/* contact.html*/
 .contact p{
 	font-size: 24px;
 }
 
 .who p {
 	text-align: center;
-	font-size: 30px;
-	margin-bottom: 5px;
+	font-size: 24px;
+	margin: 5px 0px;
+}
+
+form {
+    background-color: deepskyblue;
+	color: black;
+    padding: 20px;
+    margin: 5px 0px;
+	max-width: 1024px;
+	border-radius: 10px; 
+}
+
+input[type=text], 
+input[type=email], 
+textarea {
+	width: 100%;
+    padding: 20px;  
+    border: 3px solid white; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+	resize: vertical; 
+    margin: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 15vh;
+}
+
+input[type=submit] {
+    background-color: rgb(6, 6, 172);
+    width: 100px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#ending p {
+	font-size: 11px;
+	font-style: italic;
 }
 
 footer {
@@ -258,6 +299,7 @@ footer .awe-icons {
 
 footer a {
 	color: white;
+	margin: 5px;
 }
 
 footer a:visited {
